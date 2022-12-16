@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment';
 })
 export class MovieDetailsPage implements OnInit {
   movie:any = null;
-  imageBaseUrl = environment.images;
+  imageBaseUrl = environment.IMAGES;
 
   constructor(
     private route: ActivatedRoute,
