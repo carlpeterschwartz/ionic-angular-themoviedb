@@ -5,8 +5,8 @@ import apiKey from 'themoviedb';
 export const environment = {
   production: false,
   API_KEY_THEMOVIEDB: apiKey, // <-- Enter your own key here!'
-  baseUrl: 'https://api.themoviedb.org/3',
-  images: 'http://image.tmdb.org/t/p',
+  BASE_URL: 'https://api.themoviedb.org/3',
+  IMAGES: 'http://image.tmdb.org/t/p',
 };
 
 /*

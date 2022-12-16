@@ -11,7 +11,7 @@ import { environment } from 'src/environments/environment';
 export class MoviesPage implements OnInit {
   movies:any = [];
   currentPage = 1;
-  imageBaseUrl = environment.images;
+  imageBaseUrl = environment.IMAGES;
 
   constructor(
     private movieService: MovieService,

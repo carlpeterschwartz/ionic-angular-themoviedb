@@ -36,13 +36,13 @@ export class MovieService {
 
   getTopRatedMovies(page = 1): Observable<ApiResult> {
     return this.http.get<ApiResult>(
-      `${environment.baseUrl}/movie/popular?page=${page}&api_key=${environment.API_KEY_THEMOVIEDB}`
+      `${environment.BASE_URL}/movie/popular?page=${page}&api_key=${environment.API_KEY_THEMOVIEDB}`
     );
   }
 
   getMovieDetails(id: string): Observable<any> {
     return this.http.get<ApiResult>(
-      `${environment.baseUrl}/movie/${id}?api_key=${environment.API_KEY_THEMOVIEDB}`
+      `${environment.BASE_URL}/movie/${id}?api_key=${environment.API_KEY_THEMOVIEDB}`
     );
   }
 }
