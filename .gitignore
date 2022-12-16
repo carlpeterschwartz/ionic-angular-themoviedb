@@ -3,6 +3,7 @@
 
 .env
 apikey.ts
+themoviedb.ts
 
 *~
 *.sw[mnpcod]

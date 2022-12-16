@@ -1,10 +1,10 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-import THEMOVIEDB_API_KEY from 'apikey';
+import API_KEY_THEMOVIEDB from 'themoviedb';
 export const environment = {
   production: false,
-  apiKey: THEMOVIEDB_API_KEY, // <-- Enter your own key here!'
+  apiKey: API_KEY_THEMOVIEDB, // <-- Enter your own key here!'
   baseUrl: 'https://api.themoviedb.org/3',
   images: 'http://image.tmdb.org/t/p',
 };
