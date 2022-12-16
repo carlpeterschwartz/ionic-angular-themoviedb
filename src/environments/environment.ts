@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 import apiKey from 'themoviedb';
 export const environment = {
-  production: false,
+  //production: false,
   API_KEY_THEMOVIEDB: apiKey, // <-- Enter your own key here!'
   BASE_URL: 'https://api.themoviedb.org/3',
   IMAGES: 'http://image.tmdb.org/t/p',
