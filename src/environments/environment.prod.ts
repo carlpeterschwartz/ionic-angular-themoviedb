@@ -1,5 +1,5 @@
 //import apiKeyTheMovieDb from 'netlify/functions/themoviedb-netlify'
-const apiKeyTheMovieDbProd = process.env.API_KEY_THEMOVIEDB;
+const apiKeyTheMovieDbProd = process.env['API_KEY_THEMOVIEDB'];
 
 export const environment = {
   production: true,
